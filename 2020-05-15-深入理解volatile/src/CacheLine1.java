@@ -1,8 +1,9 @@
-public class CacheLine2 {
-    public static  long[] arr = new long[16];
+package src;
+
+public class CacheLine1 {
+    public static  long[] arr = new long[2];
 
     public static void main(String[] args) throws InterruptedException {
-
         long sum = 0;
         long min = Integer.MAX_VALUE;
         long max = 0;
@@ -14,7 +15,7 @@ public class CacheLine2 {
             });
             Thread t2 = new Thread(()->{
                 for(long i=0; i<1000000000L; i++){
-                    arr[8] = i;
+                    arr[1] = i;
                 }
             });
 
@@ -23,6 +24,7 @@ public class CacheLine2 {
             t2.start();
 //            t1.join();
 //            t2.join();
+
             long end = System.nanoTime();
             long period = end - start;
             if(n == 0) {

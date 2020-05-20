@@ -2,7 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3fbad18-aa3f-4a31-a2f1-50c4c429e01d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/2020-05-15-深入理解volatile/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020-05-09-volatile特性及原理/demo/src/main/java/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/2020-05-09-volatile特性及原理/demo/src/main/java/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/2020-05-15-深入理解volatile/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/CacheLine1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/CacheLine2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/CacheLineEffect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/Container$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/Container$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/Container$SomeThing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/Container.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/Container2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/Container2$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/Container2$SomeThing.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/Container2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CacheLine1.java" beforeDir="false" afterPath="$PROJECT_DIR$/2020-05-15-深入理解volatile/src/CacheLine1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CacheLine2.java" beforeDir="false" afterPath="$PROJECT_DIR$/2020-05-15-深入理解volatile/src/CacheLine2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CacheLineEffect.java" beforeDir="false" afterPath="$PROJECT_DIR$/2020-05-15-深入理解volatile/src/CacheLineEffect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/2020-05-15-深入理解volatile/src/Container.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Container2.java" beforeDir="false" afterPath="$PROJECT_DIR$/2020-05-15-深入理解volatile/src/Container2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/2020-05-15-深入理解volatile/src/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/深入理解volatile.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/2020-05-15-深入理解volatile/深入理解volatile.pptx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,15 +74,25 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/production/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/2020-05-15-深入理解volatile/src" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project\test\2020-05-15-深入理解volatile" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="src" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\test\2020-05-15-深入理解volatile\src" />
+      <recent name="D:\project\test\2020-05-15-深入理解volatile" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -70,35 +109,35 @@
   </component>
   <component name="RunManager" selected="Application.Container2">
     <configuration name="CacheLine1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CacheLine1" />
+      <option name="MAIN_CLASS_NAME" value="src.CacheLine1" />
       <module name="test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="CacheLine2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CacheLine2" />
+      <option name="MAIN_CLASS_NAME" value="src.CacheLine2" />
       <module name="test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="CacheLineEffect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CacheLineEffect" />
+      <option name="MAIN_CLASS_NAME" value="src.CacheLineEffect" />
       <module name="test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Container" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Container" />
+      <option name="MAIN_CLASS_NAME" value="src.Container" />
       <module name="test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Container2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Container2" />
+      <option name="MAIN_CLASS_NAME" value="src.Container2" />
       <module name="test" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,8 +166,16 @@
       <workItem from="1589380833221" duration="11664000" />
       <workItem from="1589465664839" duration="10000" />
       <workItem from="1589507746106" duration="13618000" />
-      <workItem from="1589958887468" duration="2752000" />
+      <workItem from="1589958887468" duration="3866000" />
     </task>
+    <task id="LOCAL-00001" summary="2020-05-15">
+      <created>1589963182055</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589963182055</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,31 +192,35 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2020-05-15" />
+    <option name="LAST_COMMIT_MESSAGE" value="2020-05-15" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Container.java</url>
+          <url>file://$PROJECT_DIR$/2020-05-15-深入理解volatile/src/Container.java</url>
           <line>76</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Container.java</url>
+          <url>file://$PROJECT_DIR$/2020-05-15-深入理解volatile/src/Container.java</url>
           <line>56</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Container.java</url>
+          <url>file://$PROJECT_DIR$/2020-05-15-深入理解volatile/src/Container.java</url>
           <line>47</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Container.java</url>
+          <url>file://$PROJECT_DIR$/2020-05-15-深入理解volatile/src/Container.java</url>
           <line>67</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Container.java</url>
+          <url>file://$PROJECT_DIR$/2020-05-15-深入理解volatile/src/Container.java</url>
           <line>63</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>

@@ -1,3 +1,5 @@
+package src;
+
 public class CacheLineEffect {
     //考虑一般缓存行大小是64字节，一个 long 类型占8字节
     static  long[][] arr;

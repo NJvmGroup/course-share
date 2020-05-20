@@ -24,7 +24,7 @@ public class Demo {
  }
 
     public static void main(String[] args) {
-        final Demo demo = new Demo();
+        final src.Demo demo = new src.Demo();
         new Thread(new Runnable() {
             public void run() {
                 demo.testA();
